@@ -6,7 +6,7 @@ public class Waiter {
 	private List<Order> orders = new ArrayList<>();
 	
 	public void takeOrder(Order order) {
-		System.out.println("Waiter taked new order");
+		System.out.println("Waiter taked new order " + order.toString());
 		orders.add(order);
 		order.execute();
 	}

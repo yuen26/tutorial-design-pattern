@@ -10,5 +10,10 @@ public class Pizza implements Order {
     public void execute() {
         chef.makePizza();
     }
+
+	@Override
+	public String toString() {
+		return "pizza";
+	}
     
 }

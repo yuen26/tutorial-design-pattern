@@ -11,4 +11,9 @@ public class Steak implements Order {
     	chef.makeSteak();
     }
     
+    @Override
+	public String toString() {
+		return "steak";
+	}
+    
 }
